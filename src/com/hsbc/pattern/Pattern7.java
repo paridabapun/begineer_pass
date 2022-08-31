@@ -2,18 +2,10 @@ package com.hsbc.pattern;
 
 import java.util.Scanner;
 
-public class Pattern6 {
+public class Pattern7 {
 	/* 
 
-*--------*
-*--------*
-*--------*
-*--------*
-*--------*
-*--------*
-*--------*
-*--------*
-*--------*
+
 
 
 */
@@ -28,7 +20,7 @@ public class Pattern6 {
 			
 			System.out.print("*");
 			
-			for(int col =1; col <= N-1; col++) {
+			for(int col =1; col <= N-row; col++) {
 				System.out.print("-");
 			}
 			System.out.print("*");
