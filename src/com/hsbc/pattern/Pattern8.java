@@ -20,13 +20,13 @@ public class Pattern8 {
 
 		int N = scanner.nextInt();
 
-		for (int i = 1; i <= N; i++) {
+		for (int row = 1; row <= N; row++) {
 
-			for (int j = 1; j <= N - i; j++) {
+			for (int col = 1; col <= N - row; col++) {
 				System.out.print("-");
 			}
 
-			for (int k = 1; k <= i; k++) {
+			for (int col = 1; col <= row; col++) {
 				System.out.print("*");
 			}
 			System.out.println();
