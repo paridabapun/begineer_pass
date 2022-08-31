@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 
 /* 
+ * 
+ * A SQUARE OF START of SIZE N*N
 
 ****
 ****

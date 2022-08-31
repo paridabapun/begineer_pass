@@ -3,31 +3,34 @@ package com.hsbc.pattern;
 import java.util.Scanner;
 
 /*
-
-GIVEN N and M print an rectangle of size N*M.
-
+ 
+ GIVEN  N IN INPUT AND PRINT THE FOLLOWING PATTERN
+ 
+ *7
+*******
+******
+*****
+****
+***
 **
-**
-**
-**
+*
 
-*/
+  */
 
-public class Pattern2 {
+
+public class Pattern4 {
 
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		int M = scanner.nextInt();
-
 		int N = scanner.nextInt();
 
-		for (int row = 1; row <= M; row++) {
-			for (int col = 1; col <= N; col++) {
+		for (int row = 1; row <= N; row++) {
+			for (int col = 1; col <= N + 1 - row; col++) {
 				System.out.print("*");
+
 			}
 			System.out.println();
 		}
 	}
-
 }
