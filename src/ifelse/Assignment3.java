@@ -42,6 +42,10 @@ Sample Output:
 C  
 
 
+
+T = O(1)
+S = O(1)
+
  * */
 
 public class Assignment3 {
