@@ -1,37 +1,36 @@
-package com.hsbc.pattern;
+package com.hsbc.pattern1;
 
 import java.util.Scanner;
 
 /*
-  6
------*
-----**
----***
---****
--*****
+ 
+ GIVEN  N IN INPUT AND PRINT THE FOLLOWING PATTERN
+ 
+ *7
+*******
 ******
-*/
+*****
+****
+***
+**
+*
 
-public class Pattern8 {
+  */
+
+
+public class Pattern4 {
 
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-
 		int N = scanner.nextInt();
 
 		for (int row = 1; row <= N; row++) {
-
-			for (int col = 1; col <= N - row; col++) {
-				System.out.print("-");
-			}
-
-			for (int col = 1; col <= row; col++) {
+			for (int col = 1; col <= N + 1 - row; col++) {
 				System.out.print("*");
+
 			}
 			System.out.println();
 		}
-
 	}
-
 }

@@ -1,4 +1,4 @@
-package com.hsbc.pattern;
+package com.hsbc.pattern1;
 
 import java.util.Scanner;
 
