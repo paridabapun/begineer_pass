@@ -71,22 +71,21 @@ public class Assignment5 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		int A = scanner.nextInt();
-		int B = scanner.nextInt();
-		int C = scanner.nextInt();
-		
-		if (A > B && A > C) {
-			System.out.println(A);
-			
-		}
-		
-		else if(A > B ||  A < C) {
-			System.out.println(C);
-		}
-		
-		else {
-			System.out.println(B);
-		}
+		 Scanner scn = new Scanner(System.in);
+	        int num1 = scn.nextInt();
+	        int num2 = scn.nextInt();
+	        int num3 = scn.nextInt();
+	        
+	        if(num1 > num2 && num1 > num3) {
+	            // if num1 is greater than num2 and num3 then it is max
+	            System.out.println(num1);
+	        } else if(num2 > num3) {
+	            // if we are here that means num1 is out of fight, now check if num2 is greater than num3 then it is max
+	            System.out.println(num2);
+	        } else {
+	            // only num3 is remaining, so it is max
+	            System.out.println(num3);
+	        }
 
 	}
 }

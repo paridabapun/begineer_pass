@@ -50,6 +50,7 @@ public class Homework2 {
 
 		Scanner sc = new Scanner(System.in);
 		float n1, n2, n3, n4, n5;
+		System.out.println("Enter all the numbers ");
 		n1 = sc.nextInt();
 		n2 = sc.nextInt();
 		n3 = sc.nextInt();

@@ -1,8 +1,11 @@
 package com.hsbc.pattern1;
-
+/*
+ * 
+ * GIVEN N,M print a rectangle of size N*M
+ */
 import java.util.Scanner;
 
-public class Pattern123 {
+public class LessionQuestion2 {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
@@ -15,6 +18,7 @@ public class Pattern123 {
 			n--;
 			System.out.println();
 		}
+		
 	}
 
 }

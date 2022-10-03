@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /* 
- * 
+ * Given N 
  * A SQUARE OF START of SIZE N*N
 
 ****
@@ -13,7 +13,7 @@ import java.util.Scanner;
 ****
  
  */
-public class Pattern1 {
+public class LessionQuestion1 {
 
 	public static void main(String[] args) {
 		Scanner  scanner = new Scanner(System.in);
