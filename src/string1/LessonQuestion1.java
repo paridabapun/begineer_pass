@@ -44,6 +44,8 @@ public class LessonQuestion1 {
 	System.out.println(input);
 	String input1 = scanner.nextLine();
 	System.out.println(input1);
+	
+	
 		
 
 	}
