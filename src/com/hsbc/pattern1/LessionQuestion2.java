@@ -1,4 +1,5 @@
 package com.hsbc.pattern1;
+
 /*
  * 
  * GIVEN N,M print a rectangle of size N*M
@@ -11,14 +12,16 @@ public class LessionQuestion2 {
 		Scanner scanner = new Scanner(System.in);
 
 		int n = scanner.nextInt();
-		for(int row =1; row <=n; row ++) {
-			for(int col = 1; col <=n+1-row;col++) {
+		int m = scanner.nextInt();
+
+		for (int i = 1; i <= n; i++) {
+
+			for (int j = 1; j <= m; j++) {
 				System.out.print("*");
 			}
-			n--;
 			System.out.println();
 		}
-		
+
 	}
 
 }
