@@ -61,6 +61,7 @@ Clearly, June is the 6th month.
  * 
  * */
 public class Assignment1 {
+	
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int month = scn.nextInt();
