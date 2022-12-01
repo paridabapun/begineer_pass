@@ -86,13 +86,12 @@ public class Homework1 {
 
 	public static int solve(int A) {
 
-		double d = A / 200;
+		float d =(float)A / 200;
+		System.out.println(d);
 		
 		
 		int number = (int) Math.floor(d);
-		if(number < 0) {
-			return number -1;
-		}
+		
 		return number;
 	}
 
