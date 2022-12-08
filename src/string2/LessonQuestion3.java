@@ -5,7 +5,11 @@ package string2;
 public class LessonQuestion3 {
 	static String lowercaseToUpper(String string) {
 		
-		
+		for(int i =0;i <= string.length();i++) {
+			
+			
+		}
+
 		return "Bhagabata";
 	}
 
@@ -14,8 +18,7 @@ public class LessonQuestion3 {
 	}
 
 	public static void main(String[] args) {
-		
-		
+
 	}
 
 }

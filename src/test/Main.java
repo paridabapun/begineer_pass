@@ -1,24 +1,23 @@
 package test;
 
-import java.util.*;
-
 public class Main {
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		int N = scanner.nextInt();
-		for (int i = 0; i < N; i++) {
+	public static String solve(String A) {
 
-			for (int j = 1; j < i - 1; j++) {
-				System.out.print("S");
-			}
+		String sum = "";
 
-			for (int k = 1; k <= N - i; k++) {
-				System.out.print("*");
-			}
-			System.out.println();
+		for (int i = 0; i < A.length(); i++) {
+			sum = sum + A.charAt(i);
+			int index = (A.charAt(i) - 'a') + 1;
+			sum = sum + index;
 
 		}
 
+		return sum;
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println(solve("hello"));
 	}
 }
