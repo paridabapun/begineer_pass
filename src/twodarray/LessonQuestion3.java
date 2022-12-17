@@ -2,7 +2,7 @@ package twodarray;
 
 import java.util.Scanner;
 
-//Take INPUT a 2D Matrix and print col by col
+//Take INPUT a 2D Matrix and print WAVE  print col by col
 public class LessonQuestion3 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class LessonQuestion3 {
 				}
 			} else {
 				for (int i = N - 1; i >= 0; i--) {
-					System.out.print(mat[i][j]+" ");
+					System.out.print(mat[i][j] + " ");
 				}
 			}
 			System.out.println();
