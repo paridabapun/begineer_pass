@@ -6,23 +6,28 @@ import java.util.Scanner;
 public class Test {
 
 	public static void main(String[] args) {
-		// YOUR CODE GOES HERE
-		// Please take input and print output to standard input/output (stdin/stdout)
-		// DO NOT USE ARGUMENTS FOR INPUTS
-		// E.g. 'Scanner' for input & 'System.out' for output
 
-		int[] arr = { 10, 20, 30, 40, 50 };
+		Scanner scanner = new Scanner(System.in);
+		int N = scanner.nextInt();
 
-		arr[3] = 95;
+		for (int i = 1; i <= N; i++) {
+   			int count = 0;
+   			int l = 1;
+			for (int j = i; j > 0; j--) {
+				
+				int k = j;
+				if (i % l == 0) {
+					count++;
+				}
+				l++;
 
-		arr[4] = 60;
+			}
 
-		for (int i = 0; i < arr.length; i++) {
-
-			System.out.print(arr[i] + " ");
+			if (count == 2) {
+				System.out.print(i);
+			}
 
 		}
-
 	}
 
 }
