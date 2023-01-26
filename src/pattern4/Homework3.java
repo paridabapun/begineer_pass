@@ -67,6 +67,6 @@ public class Homework3 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int N = scanner.nextInt();
-		
+//		https://www.scaler.com/academy/mentee-dashboard/class/36222/session?joinSession=1
 	}
 }
