@@ -79,7 +79,27 @@ public class Homework3 {
 		Scanner scanner = new Scanner(System.in);
 		int N = scanner.nextInt();
 
-		
+		for (int i = 1; i <= N; i++) {
+
+			for (int j = 1; j <= N - i; j++) {
+
+				System.out.print("0");
+			}
+
+			for (int k = i; k <= 2 * i - 1; k++) {
+				System.out.print(k);
+			}
+			for (int l = 2 * i - 2; l >= i; l--) {
+				System.out.print(l);
+			}
+
+			for (int j = 1; j <= N - i; j++) {
+
+				System.out.print("0");
+			}
+			System.out.println();
+
+		}
 
 	}
 }
