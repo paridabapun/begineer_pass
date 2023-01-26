@@ -1,4 +1,7 @@
 package onedarray;
+
+import java.util.Scanner;
+
 /*
  * 
  * Q1. Print in Reverse
@@ -51,7 +54,20 @@ Output 2:
 public class Assignment1 {
 	public static void main(String[] args) {
 
+		Scanner scanner = new Scanner(System.in);
+		int N = scanner.nextInt();
+
+		int arr[] = new int[N];
+
+		for (int i = 0; i < N; i++) {
+
+			arr[i] = scanner.nextInt();
+
+		}
 		
-		
+		for(int i =arr.length-1;i >=0;i--) {
+			System.out.println(arr[i]);
+		}
+
 	}
 }
