@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /*
  * 
- * Hollow pyramid pattern
+ * Star Pattern II
+
 
 8
 ********
