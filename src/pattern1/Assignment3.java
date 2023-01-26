@@ -3,31 +3,34 @@ package pattern1;
 import java.util.Scanner;
 
 /*
+GIVEN  N IN INPUT AND PRINT THE FOLLOWING PATTERN
 
-GIVEN N and M print an rectangle of size N*M.
-
+7
+*
 **
-**
-**
-**
+***
+****
+*****
+******
+*******
 
 */
 
-public class Pattern2 {
+public class Assignment3 {
 
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		int M = scanner.nextInt();
 
 		int N = scanner.nextInt();
 
-		for (int row = 1; row <= M; row++) {
-			for (int col = 1; col <= N; col++) {
+		for (int i = 1; i <= N; i++) {
+
+			for (int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
+
 		}
 	}
-
 }

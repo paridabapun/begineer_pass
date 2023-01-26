@@ -3,6 +3,9 @@ package pattern1;
 import java.util.Scanner;
 
 /*
+ * 
+ * Leading spaces pyramid
+
   6
 -----*
 ----**
@@ -12,7 +15,7 @@ import java.util.Scanner;
 ******
 */
 
-public class Pattern8 {
+public class Assignment6 {
 
 	public static void main(String[] args) {
 
