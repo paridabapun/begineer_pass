@@ -1,14 +1,12 @@
-package pattern1;
+package pattern4;
 
 import java.util.Scanner;
 
 /*
  * 
- * Hollow Inverted Half Pyramid
-
-
-
-8
+ * . Hollow Inverted Half Pyramid
+ * 
+ * 8
 ********
 *     *
 *    *
@@ -17,8 +15,11 @@ import java.util.Scanner;
 * *
 **
 *
-*
-*Problem Description
+
+
+
+
+Problem Description
 
 Given an integer N as input, print the corresponding Hollow Inverted Half Pyramid pattern for N.
 
@@ -85,12 +86,9 @@ Output 3:
 Example Explanation
 
  Print the pattern as described.
-
  */
-
-public class Homework6 {
+public class Homework2 {
 	public static void main(String[] args) {
-
 		Scanner scanner = new Scanner(System.in);
 		int N = scanner.nextInt();
 		for (int i = 1; i <= N; i++) {
