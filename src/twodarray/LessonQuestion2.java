@@ -2,7 +2,7 @@ package twodarray;
 
 import java.util.Scanner;
 
-//Take INPUT a 2D Matrix and print Wave print col by col
+//Take INPUT a 2D Matrix and print  print col by col(N * M  --> M*N)
 public class LessonQuestion2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
