@@ -53,6 +53,24 @@ Explanation 1:
 ==> [[2, 4, 6], [8, 10, 12], [14, 16, 18]]
  */
 public class Homework2 {
-	
+
+	public int[][] solve(int[][] A, int B) {
+
+		int n = A.length;
+		int m = A[0].length;
+		int res[][] = new int[n][m];
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < m; j++) {
+				res[i][j] = B * A[i][j];
+
+			}
+		}
+		return res;
+	}
+
+	public static void main(String[] args) {
+
+	}
 
 }

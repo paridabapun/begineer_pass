@@ -49,6 +49,45 @@ Column 1 elements sum = 1 + 4 + 8 = 13.
 Column 2 elements sum = 2 + 5 + 9 = 16.
  */
 public class Homework1 {
-	
+
+	public static int[] solve(int[][] A) {
+
+		int n = A.length;
+		int m = A[0].length;
+
+		int res[] = new int[n + m];
+
+		for (int i = 0; i < n; i++) {
+			int evenSum = 0;
+			for (int j = 0; j < m; j++) {
+				evenSum += A[i][j];
+
+			}
+
+			res[i] = evenSum;
+
+		}
+
+		for (int i = 0; i < m; i++) {
+			int oddSum = 0;
+			for (int j = 0; j < n; j++) {
+				oddSum += A[j][i];
+
+			}
+
+			res[n + i] = oddSum;
+
+		}
+
+		return res;
+
+	}
+
+	public static void main(String[] args) {
+
+		int arr[][] = { { 1, 2 }, { 4, 5 }, { 8, 9 } };
+		int arr2[] = solve(arr);
+
+	}
 
 }
